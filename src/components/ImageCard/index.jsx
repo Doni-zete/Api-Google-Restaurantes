@@ -9,6 +9,16 @@ background-image: url(${(props) => props.photo});
 background-size:cover;
 `;
 
-const ImageCard = ({ photo }) => <Card photo={photo} />
+const Title =styled.span`
+font-family:${(props)=>props.theme.fonts.regular}
+color: #ffffff;
+font-size:16px;
+margin:30px;
+`;
 
+const ImageCard = ({ photo }) => (
+  <Card photo={photo}>
+    <Title>Nome do Restaurante</Title>
+  </Card>
+);
 export default ImageCard;
