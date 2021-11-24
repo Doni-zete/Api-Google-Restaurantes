@@ -51,6 +51,12 @@ const Home = () => {
         <div>
           <img src={restaurante} />
         </div>
+        <div>
+          <img src={restaurante} />
+        </div>
+        <div>
+          <img src={restaurante} />
+        </div>
       </Slider>
       </Search>
       </Container>
