@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/logo.svg';
-import Slider from 'react-slick';
+
 import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 import { Container,Carousel, Search, Logo, Wrapper, Map, CarouselTitle } from './style';
